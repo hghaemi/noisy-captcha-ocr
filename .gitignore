@@ -1,0 +1,63 @@
+# =========================================
+# Python cache
+# =========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# =========================================
+# Virtual environments
+# =========================================
+venv/
+env/
+.env/
+.venv/
+
+# =========================================
+# Jupyter Notebook
+# =========================================
+.ipynb_checkpoints/
+
+# =========================================
+# Machine Learning & TensorFlow
+# =========================================
+# Model files
+captcha_model.h5
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Training / evaluation output images
+training_history.png
+predictions_sample.png
+captcha_samples_preview.png
+
+# =========================================
+# Generated datasets (images)
+# =========================================
+train/
+test/
+test-dataset/
+train-dataset/
+samples/
+dataset/
+data/
+
+# =========================================
+# OS-specific
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Editor-specific
+# =========================================
+.vscode/
+.idea/
