@@ -49,6 +49,7 @@ train-dataset/
 samples/
 dataset/
 data/
+captchas/
 
 # =========================================
 # OS-specific
