@@ -10,7 +10,7 @@ import os
 class GeneratorConfig:
 
     OUTPUT_DIR = "train" # or test or any other name
-    NUM_IMAGES = 20
+    NUM_IMAGES = 5000
     
     IMG_WIDTH = 700   
     IMG_HEIGHT = 200  
@@ -276,7 +276,7 @@ def generate_sample_preview(num_samples=10):
 
 if __name__ == "__main__":
     
-    generate_sample_preview(num_samples=10)
+    #generate_sample_preview(num_samples=10)
     
     generate_dataset(
         num_images=config.NUM_IMAGES,
