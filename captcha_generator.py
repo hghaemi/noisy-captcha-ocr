@@ -126,12 +126,6 @@ def try_load_bold_font(size):
         "C:/Windows/Fonts/ariblk.ttf",
         "C:/Windows/Fonts/impact.ttf",
         "C:/Windows/Fonts/BROADW.TTF",
-        # Linux
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
-        # Mac
-        "/System/Library/Fonts/Helvetica.ttc",
-        "/Library/Fonts/Arial Bold.ttf",
     ]
     
     if config.FONT_PATH and os.path.exists(config.FONT_PATH):
